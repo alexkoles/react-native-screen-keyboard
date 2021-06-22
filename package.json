@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable",
-    "pre-commit": "lint-staged",
-    "postinstall": "husky install"
+    "postpublish": "pinst --enable"
   },
   "repository": {
     "type": "git",
