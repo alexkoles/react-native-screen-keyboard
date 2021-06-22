@@ -206,6 +206,7 @@ class VirtualKeyboard extends Component {
           <Ripple
               testID={`VirtualKeyboard-${entity}`}
               rippleColor={"#000"}
+              rippleContainerBorderRadius={45}
               key={column}
               onPress={onPressFunction === 'onPress' ? onPress : undefined}
               onPressIn={!onPressFunction || onPressFunction === 'onPressIn' ? onPress : undefined}
