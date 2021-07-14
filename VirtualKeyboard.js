@@ -359,10 +359,10 @@ const styles = StyleSheet.create({
   // Style the individual keys
   keyDefaultStyle: {
     backgroundColor: "#FFF",
-    borderRightColor: "#e8e8e8",
-    borderRightWidth: 1,
-    borderBottomColor: "#e8e8e8",
-    borderBottomWidth: 1
+    // borderRightColor: "#e8e8e8",
+    // borderRightWidth: 1,
+    // borderBottomColor: "#e8e8e8",
+    // borderBottomWidth: 1
   },
   // Style for the text inside a key
   keyTextDefaultStyle: {
